@@ -1,0 +1,19 @@
+No.,
+1,Open [bayse_opt]->[search_space_x]->[range_of_data]
+2,"In [range_of_data], determine the search range."
+3,"In the top line, write the name of the material type."
+4,"In the second line, write the minimum value of each material."
+5,The third line is the maximum value of each material.
+6,The bottom line tells how often to search.
+7,Open [search_space_x.py] in an IDE (such as Spyder).
+8,"If you set flag = 1 in line 16, the sum of the materials in one sample will be 100."
+9,"If you set flag = 0 in line 16, the sum of the materials in one sample is not limited."
+10,The file [search_space_x.csv] will be generated. Copy it and paste it into [bayse_opt].
+11,"Open [experimental_data.csv] and select some conditions from [search_space_x.csv] in column C and later, and paste them."
+12,Delete the selected conditions from [search_space_x.csv].
+13,"In column B, write the results of the experiment."
+14,"In column A, write the sample number."
+15,Open [maximize_minimize.csv]. Rewrite 1 for maximization and 0 for minimization.
+16,Run [bayse_opt.py].
+17,The results will be saved in [next_experiment_sample.csv]. Write the conditions and results in [experimental_data.csv].
+18,Repeat steps 16 and 17.

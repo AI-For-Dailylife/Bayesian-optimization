@@ -1,0 +1,4 @@
+,butter(g),sugar(g),egg_yolk(g),ginger(g),flour(g),Cinnamon powder(g)
+min,24,10,10,2,40,0
+max,40,40,30,10,60,10
+step,2,2,2,2,2,2
