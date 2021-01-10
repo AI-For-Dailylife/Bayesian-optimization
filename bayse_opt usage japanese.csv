@@ -1,0 +1,19 @@
+No.,内容
+1,[bayse_opt]→[search_space_x]→[range_of_data]を開く
+2,[range_of_data]では探索範囲を決める。
+3,一番上の行には材料の種類名を書く。
+4,二番目の行にはそれぞれの材料の最小値を書く
+5,三番目の行にはそれぞれの材料の最大値を書く
+6,一番下の行にはどれくらいの間隔で探索するかを書く
+7,[search_space_x.py]をIDE(Spyder等)で開く
+8,16行目でflag = 1にすると一つのサンプルの材料の和が100になる。
+9,16行目でflag = 0にすると一つのサンプルの材料の和は制限されない。
+10,[search_space_x.csv]が生成される。それをコピーして[bayse_opt]の中にペーストする。
+11,[experimental_data.csv]を開きC列以降に[search_space_x.csv]の中からいくつか条件を選んでペーストする。
+12,選んだ条件は[search_space_x.csv]の中から削除する。
+13,B列には実験した結果を書き込む。
+14,A列にはサンプルの番号を書き込む
+15,"[maximize_minimize.csv]を開く。最大化の場合は1,最小化の場合は0に書き換える"
+16,[bayse_opt.py]を起動する
+17,[next_experiment_sample.csv]に結果が保存されるので、条件と結果を[experimental_data.csv]に書き込む
+18,"16,17を繰り返す。"
